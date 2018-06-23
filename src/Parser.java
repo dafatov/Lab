@@ -587,6 +587,7 @@ class Parser {
         String value0 = tov.get(keyss[keyss.length - 1])[0].toString();
         String value1 = tov.get(keyss[keyss.length - 1])[1].toString();
 
+        s.append("[");
         s.append(keyss[keyss.length - 1]);
         s.append(", [");
         s.append(value0);

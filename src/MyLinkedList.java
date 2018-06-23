@@ -220,7 +220,7 @@ class MyLinkedList {
         return null;
     }
 
-    //Метод позволяет определить индексы для каждого из ссылок (first, firstQuarter, middle, lastQuarter, last)
+    //Метод позволяет определить ближайших к целевому значению Wrapper, его индекс и направление в которой необходимо двигаться по связному списку
     private int[] getDirection(int index) {
         int[] direction = new int[3];
         int min = size;
